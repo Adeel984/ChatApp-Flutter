@@ -10,6 +10,7 @@ void main() {
   WidgetsFlutterBinding.ensureInitialized();
   FirebaseHelper().initialize();
   runApp(const MyApp());
+  //test
 }
 
 class MyApp extends StatelessWidget {
